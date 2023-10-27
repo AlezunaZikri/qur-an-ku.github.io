@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,500&family=Roboto:ital,wght@0,300;1,500;1,700&display=swap');
+
+* {
+    font-family:roboto;
+    font-family:roboto !important; 
+}
+body{
+    background-image: url(https://i.pinimg.com/736x/b7/b4/c1/b7b4c13e3f98591e9b88f9e28e9984f0.jpg);
+    background-size: contain;
+}
+.body{
+    background-image: url(https://i.pinimg.com/564x/b2/74/17/b274174ffc9287eeb937e01cda0693c7.jpg);
+    background-size: contain;
+}
+.card-surat{
+    cursor: pointer;
+    transition: .7s;
+}
+.card-surat:hover{
+    background-color: #9eaeb0;
+    box-shadow: 0 0 19px gray;
+    scale: 1.0;
+}
+.navbar-brand:hover{
+    scale: 1.2;
+    color: white;
+    
+    
+}
+.navbar-brand{
+    transition: all .5s ease;
+}
+.logo{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer{
+    padding: .8rem 0;
+    flex-wrap: wrap;
+    background: #9eaeb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.difooter{
+    margin-left: 50px;
+    font-size: 1.6rem;
+}
